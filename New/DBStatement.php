@@ -2,10 +2,10 @@
 
 class Statement {
 
-    private $Host 		= 'bpdevsys-tools.bigpoint.net';
-   	private $DBName 	= 'Test_Lian';
-   	private $DBUsername = 'lian_test';
-   	private $DBPassword = 'lian_test';
+    private $Host 		= 'db.example.com';
+   	private $DBName 	= 'TestDB';
+   	private $DBUsername = 'username';
+   	private $DBPassword = 'password';
     protected $tables;
     protected $columns;
     protected $values;
